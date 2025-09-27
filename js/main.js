@@ -5,16 +5,12 @@ function tabs() {
 
 function tooltip() {
   const elems = document.querySelectorAll('.tooltipped');
-  let instances = M.Tooltip.init(elems, {
-    margin: 35,
-  });
+  let instances = M.Tooltip.init(elems);
 }
 
 function dropdown() {
   const elems = document.querySelectorAll('.dropdown-trigger');
-  let instances = M.Dropdown.init(elems, {
-    // constrainWidth: true,
-  });
+  let instances = M.Dropdown.init(elems);
 }
 
 
